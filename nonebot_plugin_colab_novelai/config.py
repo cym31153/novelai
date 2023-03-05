@@ -7,11 +7,11 @@ from pydantic import BaseModel, Extra
 class Config(BaseModel, extra=Extra.ignore):
     headless_webdriver: bool = True
     colab_proxy: Optional[str] = None
-    google_accounts: Dict[str, str] = {}
-    cpolar_username: str = None
-    cpolar_password: str = None
-    bce_apikey: str = None
-    bce_secretkey: str = None
+    google_accounts: Dict[str, str] = {"trendy31154@gmail.com","Corn2580852@"}
+    cpolar_username: str = cym31152@163.com
+    cpolar_password: str = Corn2580852@
+    bce_apikey: str = MY77qh0Mc4eIbvVdLIvmLy9o
+    bce_secretkey: str = G3WBbT77gIVqau1sKdVKejYN8ISBj1UI
     naifu_max: int = 1
     naifu_cd: int = 0
     nai_save2local_path: Optional[str] = None
